@@ -1,0 +1,101 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index:3;
+}
+
+body{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.menu a{
+    padding: 0 15px;
+}
+
+.logo{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.boutonNav{
+    font-family: "Montserrat";
+    border: 0;
+    padding: 15px 30px 15px;
+    text-align: center;
+    color: #FEFEE2;
+    background-color: #CC8400;
+    border-radius: 15px;
+}
+
+.bouton{
+    font-family: "Montserrat";
+    border: 0;
+    padding: 15px 30px 15px;
+    text-align: center;
+    color: #FEFEE2;
+    background-color: #FFB733;
+    border-radius: 15px;
+}
+
+
+.boutonNav:hover{
+    background-color: #FFC966;
+    color: black;
+}
+
+.bouton:hover{
+    background-color: #FFC966;
+    color: black;
+}
+
+.fig1{
+    position: absolute;
+    z-index:1;
+    top:0;
+    left:0;
+    width: 1440px;
+    height: 700px;
+
+}
+
+.fig2{
+    position: absolute;
+    z-index:0;
+    top: 0px;
+    left:267px;
+}
+
+.presentation{
+    font-family: "Montserrat";
+    display: flex;
+    position: absolute;
+    z-index:3;
+    color: #FEFEE2; 
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    top:150px;
+    left:125px;
+}
+
+.presentation h1{
+    font-size:3em;
+}
+ .presentation p{
+    font-size:1.7em;
+    font-weight:500;
+ }
+
+
+
+
+
+
